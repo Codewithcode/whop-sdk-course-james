@@ -1,11 +1,13 @@
 {
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "biomejs.biome",
-	"editor.tabSize": 3,
-	"editor.detectIndentation": false,
-	"editor.insertSpaces": false,
+	"editor.quickSuggestions": {
+	  "strings": "on"
+	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll.biome": "explicit",
-		"source.action.useSortedKeys.biome": "explicit"
-	}
-}
+	  "source.fixAll.tailwindcss": "explicit"
+	},
+	"tailwindCSS.experimental.classRegex": [
+	  ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+	  ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	]
+ }
+ 

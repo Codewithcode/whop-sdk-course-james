@@ -9,12 +9,18 @@
 		"lint": "biome lint"
 	},
 	"dependencies": {
+		"@tanstack/react-query": "^5.90.10",
+		"@trpc/client": "^11.7.2",
+		"@trpc/react-query": "^11.7.2",
+		"@trpc/server": "^11.7.2",
 		"@vercel/functions": "^3.1.4",
+		"@whop/api": "^0.0.51",
 		"@whop/react": "0.3.0",
-		"@whop/sdk": "0.0.3",
+		"@whop/sdk": "0.0.8",
 		"next": "16.0.0",
 		"react": "19.2.0",
-		"react-dom": "19.2.0"
+		"react-dom": "19.2.0",
+		"zod": "^4.1.13"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.6",

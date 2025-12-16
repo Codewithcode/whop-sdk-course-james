@@ -61,8 +61,6 @@ export const appRouter = router({
           },
         });
 
-        
-
         console.log("[CHECKOUT CONFIGURATION]", result);
 
         if (!result?.plan?.id) throw new Error("Failed to charge user");
